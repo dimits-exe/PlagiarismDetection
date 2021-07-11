@@ -119,7 +119,6 @@ def user_setup():
         
         #back to main menu
         elif choice == '4':
-            print('owo',changes_made)
             return changes_made
         
         choice = fancy_input(OPTIONS_STR)
